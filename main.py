@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader
 # Set True to train the model.
 # Set False to load the saved model.
 
-TRAIN = True
+TRAIN = False
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
